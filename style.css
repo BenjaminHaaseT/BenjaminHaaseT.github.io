@@ -127,16 +127,16 @@ footer {
 }
 
 .image-gallery {
-    display: flex;
-    gap: 15px;
-    justify-content: space-between;
+    display: block;
 }
 
 .portfolio-img {
-    width: 96%; /* Keeps two images side-by-side */
+    width: 100%;    /* Forces it to span the entire card */
+    height: auto;   /* Keeps the image from stretching weirdly */
     border-radius: 4px;
     border: 1px solid #444;
-    background-color: #2a2a2a; /* Fallback color */
+    background-color: #2a2a2a; 
+    margin-bottom: 10px;
 }
 
 .caption {
