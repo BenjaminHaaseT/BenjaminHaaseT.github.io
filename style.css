@@ -133,7 +133,7 @@ footer {
 }
 
 .portfolio-img {
-    width: 48%; /* Keeps two images side-by-side */
+    width: 96%; /* Keeps two images side-by-side */
     border-radius: 4px;
     border: 1px solid #444;
     background-color: #2a2a2a; /* Fallback color */
