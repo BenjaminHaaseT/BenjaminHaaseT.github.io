@@ -172,11 +172,25 @@
                 </div>
                 <div class="project-section">
                     <h5>LTspice Simulation</h5>
-                    <p>This simulation was with the pre-gain turned all the way off, i.e the pre-gain potentiomter was at a full 50K Ohms of resistance. We see how just the bottom half of the wave gets clipped giving leaving the top of the wave to develop fully. This was designed by strategically biasing both BJT's to have their collector voltages just above their typical saturation thresholds.</p>
+                    <p>This simulation was with the pre-gain turned all the way off, i.e the pre-gain potentiomter was at a full 50K Ohms of resistance. We see how the audio signal (in blue) is allowed to develop fully. By attenuating the signal no distortion occurs.</p>
                     <div class="image-gallery">
                         <!-- Replace src with your actual image file names -->
                         <img src="FuzzPedal/PregainMinSchematic.png" alt="Top layer layout" class="portfolio-img">
                         <img src="FuzzPedal/PregainMinWaveform.png" alt="Top layer layout" class="portfolio-img">
+                    </div>
+
+                    <p>This simulation was with the pre-gain turned up to about half way. We see how only the bottom half of the audio signal (in blue) is clipped giving a warm overdrive tone.</p>
+                    <div class="image-gallery">
+                        <!-- Replace src with your actual image file names -->
+                        <img src="FuzzPedal/PregainMidSchematic.png" alt="Top layer layout" class="portfolio-img">
+                        <img src="FuzzPedal/PregainMidWaveform.png" alt="Top layer layout" class="portfolio-img">
+                    </div>
+
+                    <p>This simulation was with the pre-gain turned up all the way. We can see that the amplifier cuts off both the top and the bottom, however the clipping is still asymetrical giving the vintage fuzz tone.</p>
+                    <div class="image-gallery">
+                        <!-- Replace src with your actual image file names -->
+                        <img src="FuzzPedal/FuzzFacePregainMaxSchematic.png" alt="Top layer layout" class="portfolio-img">
+                        <img src="FuzzPedal/PregainMaxWaveform.png" alt="Top layer layout" class="portfolio-img">
                     </div>
                 </div>
             </div>
