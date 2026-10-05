@@ -185,3 +185,37 @@ footer {
     color: var(--accent-color);
     text-decoration: none;
 }
+
+/* Container spacing */
+.tech-details-wrapper {
+    margin-top: 1.5rem;
+}
+
+/* The clickable button */
+.tech-details-wrapper summary.details-toggle {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 600;
+    color: #333; /* Change this to match your site's link color if you prefer */
+    padding: 10px 16px;
+    background-color: #f4f4f4; /* Light grey background */
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    user-select: none;
+    transition: background-color 0.2s ease;
+}
+
+/* Hover effect */
+.tech-details-wrapper summary.details-toggle:hover {
+    background-color: #e2e2e2;
+}
+
+/* Spacing between the button and the first schematic when opened */
+.tech-details-wrapper[open] summary.details-toggle {
+    margin-bottom: 1.5rem;
+}
+
+/* Tweak the built-in arrow color (optional) */
+.tech-details-wrapper summary::marker {
+    color: #555;
+}
