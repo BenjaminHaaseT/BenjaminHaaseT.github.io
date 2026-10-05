@@ -155,54 +155,56 @@
                 <p class="tech-stack">Altium | LTspice</p>
                 <p>A modern chainable Fuzz pedal with a vintage sound for the bass guitar. I am still in the process of getting this board manufactured and assembled.</p>
                 <img src="FuzzPedal/FuzzPedal3D.png" alt="3D prinout of PCB" class="hero-img">
-                
-                <div class="project-section">
-                    <h5>Schematics</h5>
-                    <iframe class="pdf-viewer" src="FuzzPedal/Fuzz_PedalCover.pdf">
-                        <p>Your browser does not support embedded PDFs. <a href="FuzzPedal/FuzzPedalCover.pdf">Download the schematic.</a></p>
-                    </iframe>
-                    <iframe class="pdf-viewer" src="FuzzPedal/Fuzz_PedalBlock.pdf">
-                        <p>Your browser does not support embedded PDFs. <a href="FuzzPedal/FuzzPedalBlock.pdf">Download the schematic.</a></p>
-                    </iframe>
-                    <iframe class="pdf-viewer" src="FuzzPedal/Fuzz_PedalPower.pdf">
-                        <p>Your browser does not support embedded PDFs. <a href="FuzzPedal/FuzzPedalPower.pdf">Download the schematic.</a></p>
-                    </iframe>
-                    <iframe class="pdf-viewer" src="FuzzPedal/Fuzz_PedalAmplifier.pdf">
-                        <p>Your browser does not support embedded PDFs. <a href="FuzzPedal/FuzzPedalAmplifier.pdf">Download the schematic.</a></p>
-                    </iframe>
-                </div>
-
-                <div class="project-section">
-                    <h5>PCB Layout (Altium Designer)</h5>
-                    <img src="FuzzPedal/FuzzPedalLayout.png" alt="Top layer layout" class="portfolio-img">
-                </div>
-                <div class="project-section">
-                    <h5>LTspice Simulation</h5>
-                    <p>This simulation was with the pre-gain turned all the way off, i.e the pre-gain potentiomter was at a full 50K Ohms of resistance. We see how the audio signal (in blue) is allowed to develop fully. By attenuating the signal no distortion occurs.</p>
-                    <div class="image-gallery">
-                        <!-- Replace src with your actual image file names -->
-                        <img src="FuzzPedal/PregainMinSchematic.png" alt="Top layer layout" class="portfolio-img">
-                        <img src="FuzzPedal/PregainMinWaveform.png" alt="Top layer layout" class="portfolio-img">
+                <details class="tech-details-wrapper">
+                    <summary class="details-toggle">View Schematics & Technical Details</summary>
+                    <div class="project-section">
+                        <h5>Schematics</h5>
+                        <iframe class="pdf-viewer" src="FuzzPedal/Fuzz_PedalCover.pdf">
+                            <p>Your browser does not support embedded PDFs. <a href="FuzzPedal/FuzzPedalCover.pdf">Download the schematic.</a></p>
+                        </iframe>
+                        <iframe class="pdf-viewer" src="FuzzPedal/Fuzz_PedalBlock.pdf">
+                            <p>Your browser does not support embedded PDFs. <a href="FuzzPedal/FuzzPedalBlock.pdf">Download the schematic.</a></p>
+                        </iframe>
+                        <iframe class="pdf-viewer" src="FuzzPedal/Fuzz_PedalPower.pdf">
+                            <p>Your browser does not support embedded PDFs. <a href="FuzzPedal/FuzzPedalPower.pdf">Download the schematic.</a></p>
+                        </iframe>
+                        <iframe class="pdf-viewer" src="FuzzPedal/Fuzz_PedalAmplifier.pdf">
+                            <p>Your browser does not support embedded PDFs. <a href="FuzzPedal/FuzzPedalAmplifier.pdf">Download the schematic.</a></p>
+                        </iframe>
                     </div>
 
-                    <p>This simulation was with the pre-gain turned up to about half way. We see how only the bottom half of the audio signal (in blue) is clipped giving a warm overdrive tone.</p>
-                    <div class="image-gallery">
-                        <!-- Replace src with your actual image file names -->
-                        <img src="FuzzPedal/PregainMidSchematic.png" alt="Top layer layout" class="portfolio-img">
-                        <img src="FuzzPedal/PregainMidWaveform.png" alt="Top layer layout" class="portfolio-img">
+                    <div class="project-section">
+                        <h5>PCB Layout (Altium Designer)</h5>
+                        <img src="FuzzPedal/FuzzPedalLayout.png" alt="Top layer layout" class="portfolio-img">
                     </div>
-
-                    <p>This simulation was with the pre-gain turned up all the way. We can see that the amplifier cuts off both the top and the bottom, however the clipping is still asymetrical giving the vintage fuzz tone.</p>
-                    <div class="image-gallery">
-                        <!-- Replace src with your actual image file names -->
-                        <img src="FuzzPedal/FuzzFacePregainMaxSchematic.png" alt="Top layer layout" class="portfolio-img">
-                        <img src="FuzzPedal/PregainMaxWaveForm.png" alt="Top layer layout" class="portfolio-img">
+                    <div class="project-section">
+                        <h5>LTspice Simulation</h5>
+                        <p>This simulation was with the pre-gain turned all the way off, i.e the pre-gain potentiomter was at a full 50K Ohms of resistance. We see how the audio signal (in blue) is allowed to develop fully. By attenuating the signal no distortion occurs.</p>
+                        <div class="image-gallery">
+                            <!-- Replace src with your actual image file names -->
+                            <img src="FuzzPedal/PregainMinSchematic.png" alt="Top layer layout" class="portfolio-img">
+                            <img src="FuzzPedal/PregainMinWaveform.png" alt="Top layer layout" class="portfolio-img">
+                        </div>
+    
+                        <p>This simulation was with the pre-gain turned up to about half way. We see how only the bottom half of the audio signal (in blue) is clipped giving a warm overdrive tone.</p>
+                        <div class="image-gallery">
+                            <!-- Replace src with your actual image file names -->
+                            <img src="FuzzPedal/PregainMidSchematic.png" alt="Top layer layout" class="portfolio-img">
+                            <img src="FuzzPedal/PregainMidWaveform.png" alt="Top layer layout" class="portfolio-img">
+                        </div>
+    
+                        <p>This simulation was with the pre-gain turned up all the way. We can see that the amplifier cuts off both the top and the bottom, however the clipping is still asymetrical giving the vintage fuzz tone.</p>
+                        <div class="image-gallery">
+                            <!-- Replace src with your actual image file names -->
+                            <img src="FuzzPedal/FuzzFacePregainMaxSchematic.png" alt="Top layer layout" class="portfolio-img">
+                            <img src="FuzzPedal/PregainMaxWaveForm.png" alt="Top layer layout" class="portfolio-img">
+                        </div>
+                        <h5>Frequency Response</h5>
+                        <p>Using the pre-gain turned up half way (i.e to 25K Ohms), we see the frequency response of the output voltage is that of a high pass filter. By carefully selecting the values of the coupling capacitors and fuzz potetiometer capacitors, I ensured that our lowest frequency (31 Hz for the low B string) was well within the pass band.</p>
+                        <img src="FuzzPedal/FrequencyResponse.png" alt="Top layer layout" class="portfolio-img">
                     </div>
-                    <h5>Frequency Response</h5>
-                    <p>Using the pre-gain turned up half way (i.e to 25K Ohms), we see the frequency response of the output voltage is that of a high pass filter. By carefully selecting the values of the coupling capacitors and fuzz potetiometer capacitors, I ensured that our lowest frequency (31 Hz for the low B string) was well within the pass band.</p>
-                    <img src="FuzzPedal/FrequencyResponse.png" alt="Top layer layout" class="portfolio-img">
-                </div>
-            </div>
+                </details>
+            </didv>
             
         </section>
     </main>
